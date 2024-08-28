@@ -1,6 +1,6 @@
 import { useRouter } from 'next/navigation';
 import styles from './BackButton.module.css';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default function BackButton({ name, symbol, image }) {
     console.log(name, symbol)
@@ -16,7 +16,7 @@ export default function BackButton({ name, symbol, image }) {
                 &lt;
             </button>
             <div className={styles.cryptoInfo}>
-                <Image src={image} alt={name} />
+                <img src={image} alt={name} />
                 <div className={styles.line}>
                     <h2>{name}</h2>
                     <p>{symbol.toUpperCase()}</p>

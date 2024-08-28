@@ -1,7 +1,7 @@
 
 import styles from './List.module.css'
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
+// import img from 'next/img';
 
 
 export default function List({ crypto }) {
@@ -15,7 +15,7 @@ export default function List({ crypto }) {
     return <div key={crypto.id} className={styles.crypto_item} onClick={handleClick}>
 
         <div className={styles.crypto_info}>
-            <Image src={crypto.image} alt={crypto.name} className={styles.crypto_icon} />
+            <img src={crypto.image} alt={crypto.name} className={styles.crypto_icon} />
             <div className={styles.crypto_details}>
                 <h3>{crypto.name}</h3>
                 <p>{crypto.symbol.toUpperCase()}</p>
@@ -33,8 +33,8 @@ export default function List({ crypto }) {
 
 
         </div>
-        <div className={styles.Imagebox}>
-            {crypto.price_change_percentage_24h > 0 ? <Image src='./graph-green.png' className={styles.Image} /> : <Image src='./graph-red.png' className={styles.Image} />}
+        <div className={styles.imgbox}>
+            {crypto.price_change_percentage_24h > 0 ? <img src='./graph-green.png' className={styles.img} /> : <img src='./graph-red.png' className={styles.img} />}
         </div>
 
     </div>
