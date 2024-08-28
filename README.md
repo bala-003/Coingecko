@@ -13,7 +13,7 @@ Sparkline chart using ApexCharts to display historical price data
 ##Setup Instructions
 Clone the repository:
 
-git clone https://github.com/your-username/coingecko-app.git
+git clone https://github.com/bala-003/Coingecko.git
 cd coingecko-app
 Install dependencies:
 
