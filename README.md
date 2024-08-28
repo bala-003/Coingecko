@@ -1,3 +1,45 @@
+##CoinGecko Cryptocurrency App
+
+This project is a cryptocurrency dashboard built with Next.js that fetches data from the CoinGecko API, displays a list of cryptocurrencies with search functionality, and provides detailed information for each coin, including a price chart. The app also includes offline support.
+
+#Features
+#Cryptocurrency List: Displays a list of cryptocurrencies with their price and 24-hour percentage change.
+#Search Functionality: Allows users to search for specific cryptocurrencies by name.
+#Detailed Crypto Page: Clicking on a cryptocurrency in the list routes the user to a detailed page, which includes:
+Price information
+Price change percentage
+Sparkline chart using ApexCharts to display historical price data
+
+##Setup Instructions
+Clone the repository:
+
+git clone https://github.com/your-username/coingecko-app.git
+cd coingecko-app
+Install dependencies:
+
+npm install
+Run the development server:
+
+npm run dev
+Build the app for production:
+
+npm run build
+
+##Issues
+Due to some API fetch call limitations, pagination has been temporarily removed. However, the core functionality of the app remains intact.
+
+##Technologies Used
+Next.js
+React
+ApexCharts for graph rendering
+
+##Works yet to complete
+API Fetch Challenges: Encountered issues with API fetch, which required additional time to resolve. As a result, pagination was removed from the app
+
+Responsive Design: .
+
+Offline Component Enhancement:
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
