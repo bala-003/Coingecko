@@ -1,0 +1,106 @@
+.container {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.dis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexagonal {
+  width: 50%;
+  height: 50%;
+}
+
+.h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.crypto_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.crypto_item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.crypto_item:hover {
+  background-color: #cbcbcb;
+  transform: scale(1.02);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.crypto_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.crypto_icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.crypto_details {
+  line-height: 1.5;
+}
+
+.crypto_details h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.crypto_details p {
+  font-size: 1rem;
+  color: #888;
+  margin: 0;
+}
+
+.crypto_stats {
+  text-align: center;
+}
+
+.crypto_price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.crypto_change {
+  margin: 5px 0;
+}
+
+.crypto_change.up {
+  color: green;
+}
+
+.crypto_change.down {
+  color: red;
+}
+
+.imgbox {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

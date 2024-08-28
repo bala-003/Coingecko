@@ -1,0 +1,123 @@
+.backButtonContainer {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.backButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+  color: #898a8d;
+  margin-right: 15px;
+}
+
+.backButton:hover {
+  color: #005bb5;
+}
+
+.arrow {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.cryptoInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.cryptoInfo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cryptoInfo div {
+  display: flex;
+  flex-direction: column;
+}
+
+.cryptoInfo p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.cryptoInfo p:first-of-type {
+  color: #333;
+}
+
+.cryptoInfo p:last-of-type {
+  color: #666;
+}
+
+.line {
+  line-height: 0.5;
+}
+
+@media (max-width: 600px) {
+  .backButtonContainer {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .backButton {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .arrow {
+    font-size: 20px;
+    margin-right: 6px;
+  }
+
+  .cryptoInfo {
+    grid-template-columns: 1fr;
+  }
+
+  .cryptoInfo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .cryptoInfo p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .backButtonContainer {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .backButton {
+    font-size: 22px;
+    margin-right: 12px;
+  }
+
+  .arrow {
+    font-size: 22px;
+    margin-right: 7px;
+  }
+
+  .cryptoInfo {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cryptoInfo img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .cryptoInfo p {
+    font-size: 15px;
+  }
+}

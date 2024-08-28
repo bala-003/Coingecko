@@ -1,0 +1,36 @@
+.priceTag {
+  align-items: start;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.priceTag:hover {
+  transform: scale(105%);
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 18px;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.seperate {
+  display: flex;
+  justify-content: space-between;
+}
